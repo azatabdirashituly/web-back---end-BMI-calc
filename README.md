@@ -1,5 +1,10 @@
 # web-back---end-BMI-calc
 
+to clone project -->
+    on console: 
+        "git clone https://github.com/azatabdirashituly/web-back---end-BMI-calc.git"
+<--
+
 #used dependencies -->
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
