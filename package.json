@@ -1,0 +1,18 @@
+{
+  "name": "week-3-bmi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "root.js",
+  "scripts": {
+    "start": "nodemon root.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "validator": "^13.11.0"
+  }
+}

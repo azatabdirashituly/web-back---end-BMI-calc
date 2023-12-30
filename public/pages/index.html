@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">What is BMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    </li>
+                </ul>
+                <p class="title p-0 m-0">Body Mass Index Calculator</p>
+            </div>
+        </div>
+    </nav>
+    <form class="main d-flex justify-content-center align-items-center" action="/" method="post">
+        <div class="heightandweight pb-3">
+            <div class="Height">
+                <input type="text" name="height" placeholder="type your height (cm or in)">
+            </div>
+            <div class="Weight">
+                <input type="text" name="weight" placeholder="type your weight (kg or pb)">
+            </div>
+        </div>
+        <div class="dropdowns pb-3">
+            <div class="dropdown">
+                <select name="measurementSystem" id="measurementSystem">
+                    <option value="imperial">Imperial</option>
+                    <option value="Metric">Metric</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <select name="" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+        <div class="age pb-3">
+            <input type="text" name="age" placeholder="type your age">
+        </div>
+        <div class="result">
+            <button type="submit">Calculate</button>
+        </div>
+        <div class="footer text-white text-center">
+            <p>AZAT ABDIRASHITULY</p>
+            <p class="text-center">SE-2204</p>
+        </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
